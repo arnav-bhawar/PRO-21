@@ -42,14 +42,14 @@ function draw() {
       wall.shapeColor=color(255,0,0);
       fill("red");
       text("Damage = "+damage,200,200);
-      text("Ineffective",200,220);
+      text("Bullet pierced :- Ineffective wall",200,220);
     }
 
     if(damage<10)
     {wall.shapeColor=color(0,255,0)
       fill("green");
       text("Damage = "+damage,200,200);
-      text("effective",200,220);
+      text("Bullet could not pierce :- Effective wall",200,220);
       
   
     }
